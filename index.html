@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
     />
     <meta charset="UTF-8" />
     <script defer src="./assets/bootstrap/bootstrap.bundle.js"></script>
@@ -73,45 +73,48 @@
           <div class="carousel-item active">
             <img
               srcset="
-                ./assets/images/slider/slide-1-375w.jpg   375w,
-                ./assets/images/slider/slide-1-1000w.jpg 1000w,
-                ./assets/images/slider/slide-1-1920w.jpg 1920w
+                ./assets/images/slider/slide-1-small.jpg   300w,
+                ./assets/images/slider/slide-1-medium.jpg  600w,
+                ./assets/images/slider/slide-1-large.jpg  1200w
               "
-              sizes="(max-width: 767px) 375px,
-			  (max-width: 1000px) 1000px,
-			  1920px"
-              src="./assets/images/slider/slide-1-1000w.jpg"
-              class="d-block w-100"
+              sizes="(max-width: 767px) 300px, 
+              (max-width: 1024px) 600px,
+              1200px
+    "
+              src="./assets/images/slider/slide-1-large.jpg"
+              class="d-block w-100 h-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
               srcset="
-                ./assets/images/slider/slide-2-375w.jpg   375w,
-                ./assets/images/slider/slide-2-1000w.jpg 1000w,
-                ./assets/images/slider/slide-2-1920w.jpg 1920w
+                ./assets/images/slider/slide-2-small.jpg   300w,
+                ./assets/images/slider/slide-2-medium.jpg  600w,
+                ./assets/images/slider/slide-2-large.jpg  1200w
               "
-              sizes="(max-width: 767px) 375px,
-			  (max-width: 1000px) 1000px,
-			  1920px"
-              src="./assets/images/slider/slide-2-1000w.jpg"
-              class="d-block w-100"
+              sizes="(max-width: 767px) 300px, 
+              (max-width: 1024px) 600px,
+              1200px
+    "
+              src="./assets/images/slider/slide-2-large.jpg"
+              class="d-block w-100 h-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
               srcset="
-                ./assets/images/slider/slide-3-375w.jpg   375w,
-                ./assets/images/slider/slide-3-1000w.jpg 1000w,
-                ./assets/images/slider/slide-3-1920w.jpg 1920w
+                ./assets/images/slider/slide-3-small.jpg   300w,
+                ./assets/images/slider/slide-3-medium.jpg  600w,
+                ./assets/images/slider/slide-3-large.jpg  1200w
               "
-              sizes="(max-width: 767px) 375px,
-			  (max-width: 1000px) 1000px,
-			  1920px"
-              src="./assets/images/slider/slide-3-1000w.jpg"
-              class="d-block w-100"
+              sizes="(max-width: 767px) 300px, 
+              (max-width: 1024px) 600px,
+              1200px
+    "
+              src="./assets/images/slider/slide-3-large.jpg"
+              class="d-block w-100 h-100"
               alt="..."
             />
           </div>
@@ -138,7 +141,14 @@
     </div>
     <div id="about">
       <div class="picture left">
-        <img src="./assets/images/nina.png" />
+        <img
+          srcset="
+            ./assets/images/nina-small.png  200w,
+            ./assets/images/nina-medium.png 500w
+          "
+          sizes="(max-width: 470px) 200px, 500px"
+          src="./assets/images/nina-medium.png"
+        />
       </div>
       <div id="about-me">
         <h3 class="about-me__title">A propos de moi</h3>
