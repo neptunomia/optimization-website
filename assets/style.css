@@ -74,7 +74,9 @@ body {
 
 .picture img {
   width: 100%;
+  height: auto;
 }
+
 #about-me {
   flex: 2;
 }
@@ -246,6 +248,22 @@ form textarea {
 input[type='submit'] {
   background-color: #beb45a;
   padding: 0.5em 1em;
+}
+
+#infos {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #d8d3a8;
+  text-align: center;
+}
+
+#infos h2 {
+  margin-bottom: 15px;
+}
+
+#infos span {
+  line-height: 25px;
+  padding-top: 0;
 }
 
 @media all and (max-width: 1180px) {
